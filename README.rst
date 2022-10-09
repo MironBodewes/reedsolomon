@@ -197,7 +197,7 @@ Let's define our RS message and ecc size:
 To optimize, you can precompute the generator polynomial:
 
 .. code:: python
-
+    
     >> gen = rs.rs_generator_poly_all(n)
 
 Then to encode:
